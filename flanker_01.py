@@ -92,3 +92,4 @@ for block in experiment.blocks: #die äußere Schleife geht durch alle 6 Blöcke
 expyriment.control.end(goodbye_text= "Vielen Dank für Ihre Teilnahme!",
                        goodbye_delay=5000) #beendet Experiment mit 2s Abschiedstext
 
+#hallo
