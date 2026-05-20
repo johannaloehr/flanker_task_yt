@@ -1,0 +1,12 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue May 12 2026 13:30:05
+#sha1: e60847
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='PC192-168-2-107', release='25.4.0', version='Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+4381,stderr,received,'Traceback (most recent call last):'
+4381,stderr,received,'  File "/Users/johannalohr/Documents/GitHub/flanker_task_yt/flanker_01 copy.py", line 32, in <module>'
+4382,stderr,received,'    curr_stim = flanker_stimuli[trial] #Indices 0-9'
+4382,stderr,received,'                ~~~~~~~~~~~~~~~^^^^^^^'
+4382,stderr,received,'IndexError: list index out of range'

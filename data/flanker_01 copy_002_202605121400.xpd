@@ -1,0 +1,83 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpd-file, coding: UTF-8
+#date: Tue May 12 2026 14:00:36
+#--EXPERIMENT INFO
+#e mainfile: flanker_01 copy.py
+#e sha1: 6c7268
+#e modules: 
+#e Experiment: Flanker Task
+#e no between subject factors
+#e Block 0: 1
+#e     block factors: 
+#e     n trials: 6
+#e     trial factors: trialtype = [congruent, incongruent, neutral]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 1: 2
+#e     block factors: 
+#e     n trials: 6
+#e     trial factors: trialtype = [congruent, incongruent, neutral]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 2: 3
+#e     block factors: 
+#e     n trials: 6
+#e     trial factors: trialtype = [congruent, incongruent, neutral]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 3: 4
+#e     block factors: 
+#e     n trials: 6
+#e     trial factors: trialtype = [congruent, incongruent, neutral]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 4: 5
+#e     block factors: 
+#e     n trials: 6
+#e     trial factors: trialtype = [congruent, incongruent, neutral]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 5: 6
+#e     block factors: 
+#e     n trials: 6
+#e     trial factors: trialtype = [congruent, incongruent, neutral]
+#e                    correctresponse = [correctresponse]
+#e                    
+#--SUBJECT INFO
+#s id: 2
+subject_id,block,correctresp,response,trial,RT,accuracy,trialtype
+2,1,correctresponse,109,2,665,0,incongruent
+2,1,correctresponse,None,5,None,0,neutral
+2,1,correctresponse,120,3,569,0,incongruent
+2,1,correctresponse,120,0,464,0,congruent
+2,1,correctresponse,109,1,465,0,congruent
+2,1,correctresponse,None,4,None,0,neutral
+2,2,correctresponse,None,2,None,0,incongruent
+2,2,correctresponse,109,3,356,0,incongruent
+2,2,correctresponse,120,1,97,0,congruent
+2,2,correctresponse,109,0,386,0,congruent
+2,2,correctresponse,None,5,None,0,neutral
+2,2,correctresponse,None,4,None,0,neutral
+2,3,correctresponse,120,0,588,0,congruent
+2,3,correctresponse,None,4,None,0,neutral
+2,3,correctresponse,109,2,658,0,incongruent
+2,3,correctresponse,109,1,784,0,congruent
+2,3,correctresponse,None,5,None,0,neutral
+2,3,correctresponse,120,3,482,0,incongruent
+2,4,correctresponse,120,3,494,0,incongruent
+2,4,correctresponse,109,4,456,0,neutral
+2,4,correctresponse,120,0,427,0,congruent
+2,4,correctresponse,109,1,590,0,congruent
+2,4,correctresponse,120,5,613,0,neutral
+2,4,correctresponse,109,2,576,0,incongruent
+2,5,correctresponse,120,0,393,0,congruent
+2,5,correctresponse,109,1,449,0,congruent
+2,5,correctresponse,None,4,None,0,neutral
+2,5,correctresponse,120,2,663,0,incongruent
+2,5,correctresponse,120,3,484,0,incongruent
+2,5,correctresponse,None,5,None,0,neutral
+2,6,correctresponse,None,5,None,0,neutral
+2,6,correctresponse,109,1,768,0,congruent
+2,6,correctresponse,120,0,380,0,congruent
+2,6,correctresponse,120,3,515,0,incongruent
+2,6,correctresponse,109,2,558,0,incongruent
+2,6,correctresponse,None,4,None,0,neutral

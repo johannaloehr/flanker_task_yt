@@ -1,0 +1,119 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Tue May 12 2026 12:58:37
+#sha1: 3612ce
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='PC192-168-2-107', release='25.4.0', version='Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+10494,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,2,120,incongruent
+#design: 0,0,1,1,109,congruent
+#design: 0,0,2,3,109,incongruent
+#design: 0,0,3,0,120,congruent
+#design: 1,1,0,2,120,incongruent
+#design: 1,1,1,1,109,congruent
+#design: 1,1,2,3,109,incongruent
+#design: 1,1,3,0,120,congruent
+#design: 2,2,0,1,109,congruent
+#design: 2,2,1,2,120,incongruent
+#design: 2,2,2,0,120,congruent
+#design: 2,2,3,3,109,incongruent
+#design: 3,3,0,0,120,congruent
+#design: 3,3,1,3,109,incongruent
+#design: 3,3,2,1,109,congruent
+#design: 3,3,3,2,120,incongruent
+#design: 4,4,0,1,109,congruent
+#design: 4,4,1,2,120,incongruent
+#design: 4,4,2,3,109,incongruent
+#design: 4,4,3,0,120,congruent
+#design: 5,5,0,2,120,incongruent
+#design: 5,5,1,0,120,congruent
+#design: 5,5,2,3,109,incongruent
+#design: 5,5,3,1,109,congruent
+10494,design,logged,
+10494,Experiment,started
+10511,Stimulus,presented,26
+11887,Keyboard,received,32,wait
+11895,Stimulus,presented,25
+13914,Stimulus,presented,2
+14759,Keyboard,received,109,wait
+15928,Stimulus,presented,25
+17947,Stimulus,presented,1
+18385,Keyboard,received,109,wait
+19963,Stimulus,presented,25
+21980,Stimulus,presented,3
+22432,Keyboard,received,120,wait
+23996,Stimulus,presented,25
+26015,Stimulus,presented,0
+26447,Keyboard,received,120,wait
+28045,Stimulus,presented,27
+33063,Stimulus,presented,25
+35080,Stimulus,presented,6
+35756,Keyboard,received,109,wait
+37098,Stimulus,presented,25
+39114,Stimulus,presented,5
+39178,Keyboard,received,120,wait
+41130,Stimulus,presented,25
+43148,Stimulus,presented,7
+43550,Keyboard,received,109,wait
+45163,Stimulus,presented,25
+47181,Stimulus,presented,4
+48518,Keyboard,received,109,wait
+49195,Stimulus,presented,28
+54216,Stimulus,presented,25
+56231,Stimulus,presented,9
+56523,Keyboard,received,109,wait
+58247,Stimulus,presented,25
+60264,Stimulus,presented,10
+61301,Keyboard,received,109,wait
+62280,Stimulus,presented,25
+64297,Stimulus,presented,8
+66297,Keyboard,received,None,wait
+66311,Stimulus,presented,25
+68330,Stimulus,presented,11
+68835,Keyboard,received,109,wait
+70345,Stimulus,presented,29
+75365,Stimulus,presented,25
+77378,Stimulus,presented,12
+78412,Keyboard,received,109,wait
+79397,Stimulus,presented,25
+81413,Stimulus,presented,15
+83413,Keyboard,received,None,wait
+83428,Stimulus,presented,25
+85447,Stimulus,presented,13
+87447,Keyboard,received,None,wait
+87461,Stimulus,presented,25
+89480,Stimulus,presented,14
+90094,Keyboard,received,109,wait
+91495,Stimulus,presented,30
+96514,Stimulus,presented,25
+98531,Stimulus,presented,17
+99856,Keyboard,received,109,wait
+100546,Stimulus,presented,25
+102564,Stimulus,presented,18
+104564,Keyboard,received,None,wait
+104578,Stimulus,presented,25
+106597,Stimulus,presented,19
+106955,Keyboard,received,109,wait
+108613,Stimulus,presented,25
+110630,Stimulus,presented,16
+112462,Keyboard,received,109,wait
+112645,Stimulus,presented,31
+117665,Stimulus,presented,25
+119680,Stimulus,presented,22
+120890,Keyboard,received,109,wait
+121696,Stimulus,presented,25
+123713,Stimulus,presented,20
+124249,Keyboard,received,109,wait
+125728,Stimulus,presented,25
+127747,Stimulus,presented,23
+129029,Keyboard,received,109,wait
+129762,Stimulus,presented,25
+131780,Stimulus,presented,21
+133780,Keyboard,received,None,wait
+133780,Experiment,ended
+133781,Data,saved
+133794,Stimulus,presented,32

@@ -3,9 +3,9 @@
 import expyriment #wie library () in R
 
 #Variablen definieren
-n_trials_block = 4
+n_trials_block = 6
 n_blocks = 6
-durations = 2000 #ms
+durations = 1000 #ms
 
 flanker_stimuli = ['←←←←←', '→→→→→','←←→←←','→→←→→', '↑↑↑↑↑', '↓↓↓↓↓'] #eine Liste wie in R c(...) #Python zählt ab 0, nicht ab 1
 # 0 congruent links, 1 congruent rechts, 2 inkongruent rechts, 3 inkongruent links
@@ -29,7 +29,7 @@ expyriment.control.initialize(experiment) #öffnet Fenster/initialisiert Experim
 for block in range (n_blocks): #range(n_blocks) (0, 1, 2, 3, 4, 5)
     temp_block = expyriment.design.Block(name=str(block + 1)) #benennt Blöcke 1-6
     for trial in range(n_trials_block): #vier trials pro block
-        curr_stim = flanker_stimuli[trial] #Indices 0-3
+        curr_stim = flanker_stimuli[trial] #Indices 0-9
         temp_stim = expyriment.stimuli.TextLine(text=curr_stim, text_size=40) #curr_stim = flanker_stimuli[trials] #Indices 0-3
         temp_trial = expyriment.design.Trial()
         temp_trial.add_stimulus(temp_stim) #verknüpft Text-Stimulus mit trial-objekt temp_trial
@@ -71,7 +71,7 @@ for block in experiment.blocks: #die äußere Schleife geht durch alle 6 Blöcke
         fixation_cross.present() #zeigt fixation cross, das vorhin als objekt fixation_cross gespeichert wurde
         trial.stimuli[0].preload() #preload () lädt den Stimulus vorab in den Speicher, damit er später ohne Verzögerung erscheint. [0] = der erste und einzige Stimulus des Trials
 
-        experiment.clock.wait(durations) #wartet 2000ms (zeigt Fixationskreuz an), vorab unter durations gespeichert
+        experiment.clock.wait(durations) #wartet 1000ms (zeigt Fixationskreuz an), vorab unter durations gespeichert
         trial.stimuli[0].present() #zeigt Flanker Stimulus an
         experiment.clock.reset_stopwatch() #startet Stoppuhr: ab hier wird Reaktionszeit gemessen
         key, rt = experiment.keyboard.wait(keys=[expyriment.misc.constants.K_x,  #wartet auf Tastendruck, aber NUR X oder M

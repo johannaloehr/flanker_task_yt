@@ -1,0 +1,50 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpd-file, coding: UTF-8
+#date: Wed May 20 2026 22:40:59
+#--EXPERIMENT INFO
+#e mainfile: flanker_01.py
+#e sha1: b3b6c1
+#e modules: 
+#e Experiment: Flanker Task
+#e no between subject factors
+#e Block 0: 1
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: trialtype = [congruent, incongruent]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 1: 2
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: trialtype = [congruent, incongruent]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 2: 3
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: trialtype = [congruent, incongruent]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 3: 4
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: trialtype = [congruent, incongruent]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 4: 5
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: trialtype = [congruent, incongruent]
+#e                    correctresponse = [correctresponse]
+#e                    
+#e Block 5: 6
+#e     block factors: 
+#e     n trials: 4
+#e     trial factors: trialtype = [congruent, incongruent]
+#e                    correctresponse = [correctresponse]
+#e                    
+#--SUBJECT INFO
+#s id: 3
+subject_id,block,correctresp,response,trial,RT,accuracy,trialtype
+3,1,correctresponse,120,0,517,0,congruent
+3,1,correctresponse,109,1,496,0,congruent
+3,1,correctresponse,109,2,649,0,incongruent
