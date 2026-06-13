@@ -1,0 +1,51 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpd-file, coding: UTF-8
+#date: Sun May 31 2026 22:12:59
+#--EXPERIMENT INFO
+#e mainfile: schmierpapier
+#e sha1: 8b3858
+#e modules: 
+#e Experiment: Flanker Task
+#e no between subject factors
+#e Block 0: 1
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 1: 2
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 2: 3
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 3: 4
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 4: 5
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 5: 6
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#--SUBJECT INFO
+#s id: 3
+subject_id,block,correctresp,response,trial,RT,accuracy,trialtype
+3,1,120,None,0,None,0,left_incongruent
+3,1,109,None,1,None,0,left_red
+3,1,-1,None,4,None,0,neutral_up
+3,1,109,None,8,None,0,right_congruent

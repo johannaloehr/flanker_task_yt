@@ -1,0 +1,124 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Sun May 31 2026 21:23:04
+#sha1: aa8d7b
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='PC192-168-2-103', release='25.4.0', version='Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+4464,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x11166d710> <class 'expyriment.stimuli._textline.TextLine'>"
+4467,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x111620590> <class 'expyriment.stimuli._textline.TextLine'>"
+4468,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x111677dd0> <class 'expyriment.stimuli._textline.TextLine'>"
+4469,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x111677cd0> <class 'expyriment.stimuli._textline.TextLine'>"
+4473,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x111677e50> <class 'expyriment.stimuli._textline.TextLine'>"
+4474,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x111678250> <class 'expyriment.stimuli._textline.TextLine'>"
+4475,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x1116079d0> <class 'expyriment.stimuli._textline.TextLine'>"
+4476,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x111607990> <class 'expyriment.stimuli._textline.TextLine'>"
+4476,stdout,received,'120'
+4476,stdout,received,'109'
+10478,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,6,120,left_incongruent
+#design: 0,0,1,2,109,left_red
+#design: 0,0,2,7,109,right_green
+#design: 0,0,3,3,120,right_red
+#design: 0,0,4,4,109,right_congruent
+#design: 0,0,5,1,109,right_incongruent
+#design: 0,0,6,0,-1,neutral_down
+#design: 0,0,7,8,120,left_congruent
+#design: 0,0,8,5,-1,neutral_up
+#design: 0,0,9,9,120,left_green
+#design: 1,1,0,7,109,right_green
+#design: 1,1,1,6,-1,neutral_down
+#design: 1,1,2,2,109,right_congruent
+#design: 1,1,3,3,120,left_congruent
+#design: 1,1,4,9,120,right_red
+#design: 1,1,5,8,120,left_incongruent
+#design: 1,1,6,0,109,left_red
+#design: 1,1,7,1,120,left_green
+#design: 1,1,8,5,-1,neutral_up
+#design: 1,1,9,4,109,right_incongruent
+#design: 2,2,0,4,120,right_red
+#design: 2,2,1,1,109,left_red
+#design: 2,2,2,6,109,right_incongruent
+#design: 2,2,3,3,109,right_congruent
+#design: 2,2,4,2,109,right_green
+#design: 2,2,5,8,120,left_green
+#design: 2,2,6,7,-1,neutral_up
+#design: 2,2,7,0,120,left_congruent
+#design: 2,2,8,5,-1,neutral_down
+#design: 2,2,9,9,120,left_incongruent
+#design: 3,3,0,8,109,right_incongruent
+#design: 3,3,1,2,120,right_red
+#design: 3,3,2,3,120,left_congruent
+#design: 3,3,3,9,120,left_incongruent
+#design: 3,3,4,5,109,right_green
+#design: 3,3,5,1,-1,neutral_down
+#design: 3,3,6,0,120,left_green
+#design: 3,3,7,7,109,right_congruent
+#design: 3,3,8,4,109,left_red
+#design: 3,3,9,6,-1,neutral_up
+#design: 4,4,0,3,109,right_congruent
+#design: 4,4,1,7,109,right_green
+#design: 4,4,2,5,120,left_congruent
+#design: 4,4,3,9,109,right_incongruent
+#design: 4,4,4,0,120,left_incongruent
+#design: 4,4,5,4,120,left_green
+#design: 4,4,6,6,-1,neutral_up
+#design: 4,4,7,1,109,left_red
+#design: 4,4,8,2,120,right_red
+#design: 4,4,9,8,-1,neutral_down
+#design: 5,5,0,0,109,right_green
+#design: 5,5,1,8,109,left_red
+#design: 5,5,2,7,120,right_red
+#design: 5,5,3,3,120,left_congruent
+#design: 5,5,4,6,120,left_incongruent
+#design: 5,5,5,5,-1,neutral_up
+#design: 5,5,6,9,109,right_congruent
+#design: 5,5,7,2,-1,neutral_down
+#design: 5,5,8,1,109,right_incongruent
+#design: 5,5,9,4,120,left_green
+10478,design,logged,
+10478,Experiment,started
+10495,Stimulus,presented,30
+16520,Keyboard,received,32,wait
+16530,Stimulus,presented,29
+17545,Stimulus,presented,4
+18545,Keyboard,received,None,wait
+18561,Stimulus,presented,29
+19578,Stimulus,presented,24
+20578,Keyboard,received,None,wait
+20595,Stimulus,presented,29
+21612,Stimulus,presented,22
+22612,Keyboard,received,None,wait
+22628,Stimulus,presented,29
+23646,Stimulus,presented,26
+24646,Keyboard,received,None,wait
+24661,Stimulus,presented,29
+25679,Stimulus,presented,2
+26679,Keyboard,received,None,wait
+26695,Stimulus,presented,29
+27712,Stimulus,presented,6
+28712,Keyboard,received,None,wait
+28728,Stimulus,presented,29
+29745,Stimulus,presented,14
+30745,Keyboard,received,None,wait
+30761,Stimulus,presented,29
+31778,Stimulus,presented,0
+32778,Keyboard,received,None,wait
+32795,Stimulus,presented,29
+33812,Stimulus,presented,8
+34812,Keyboard,received,None,wait
+34828,Stimulus,presented,29
+35846,Stimulus,presented,20
+36846,Keyboard,received,None,wait
+36862,Stimulus,presented,31
+41881,Stimulus,presented,29
+42895,Stimulus,presented,22
+43258,Experiment,paused
+43261,Stimulus,presented,32
+44951,Keyboard,received,y,wait_char
+44951,Experiment,ended
+44952,Data,saved
+44963,Stimulus,presented,32

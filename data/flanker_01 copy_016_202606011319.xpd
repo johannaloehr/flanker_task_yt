@@ -1,0 +1,107 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpd-file, coding: UTF-8
+#date: Mon Jun 01 2026 13:19:00
+#--EXPERIMENT INFO
+#e mainfile: flanker_01 copy.py
+#e sha1: 61a991
+#e modules: 
+#e Experiment: Flanker Task
+#e no between subject factors
+#e Block 0: 1
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 1: 2
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 2: 3
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 3: 4
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 4: 5
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#e Block 5: 6
+#e     block factors: 
+#e     n trials: 10
+#e     trial factors: correctresponse = [-1, 109, 120]
+#e                    trialtype = [left_congruent, left_green, left_incongruent, left_red, neutral_down, neutral_up, right_congruent, right_green, right_incongruent, right_red]
+#e                    
+#--SUBJECT INFO
+#s id: 16
+subject_id,block,correctresp,response,trial,RT,accuracy,trialtype
+16,1,120,None,5,None,0,right_red
+16,1,120,None,7,None,0,left_congruent
+16,1,120,None,8,None,0,left_green
+16,1,109,None,4,None,0,right_incongruent
+16,1,-1,None,3,None,0,neutral_down
+16,1,109,None,2,None,0,left_red
+16,1,120,None,0,None,0,left_incongruent
+16,1,109,None,9,None,0,right_congruent
+16,1,-1,None,6,None,0,neutral_up
+16,1,109,None,1,None,0,right_green
+16,2,120,None,0,None,0,left_green
+16,2,120,None,3,None,0,left_incongruent
+16,2,109,None,5,None,0,right_green
+16,2,120,None,6,None,0,left_congruent
+16,2,120,None,9,None,0,right_red
+16,2,-1,None,1,None,0,neutral_up
+16,2,-1,None,4,None,0,neutral_down
+16,2,109,None,7,None,0,right_congruent
+16,2,109,None,8,None,0,right_incongruent
+16,2,109,None,2,None,0,left_red
+16,3,109,None,5,None,0,left_red
+16,3,120,None,4,None,0,right_red
+16,3,120,None,2,None,0,left_incongruent
+16,3,-1,None,6,None,0,neutral_down
+16,3,109,None,0,None,0,right_incongruent
+16,3,109,None,9,None,0,right_congruent
+16,3,120,None,1,None,0,left_congruent
+16,3,120,None,8,None,0,left_green
+16,3,109,None,7,None,0,right_green
+16,3,-1,None,3,None,0,neutral_up
+16,4,120,None,9,None,0,left_incongruent
+16,4,109,None,5,None,0,right_incongruent
+16,4,-1,None,1,None,0,neutral_up
+16,4,120,None,4,None,0,left_green
+16,4,109,None,3,None,0,right_congruent
+16,4,120,None,7,None,0,right_red
+16,4,-1,None,8,None,0,neutral_down
+16,4,120,None,2,None,0,left_congruent
+16,4,109,None,6,None,0,left_red
+16,4,109,None,0,None,0,right_green
+16,5,109,None,3,None,0,right_incongruent
+16,5,120,None,4,None,0,right_red
+16,5,109,None,7,None,0,left_red
+16,5,120,None,9,None,0,left_incongruent
+16,5,120,None,2,None,0,left_congruent
+16,5,120,None,6,None,0,left_green
+16,5,-1,None,1,None,0,neutral_down
+16,5,-1,None,5,None,0,neutral_up
+16,5,109,None,8,None,0,right_congruent
+16,5,109,None,0,None,0,right_green
+16,6,109,None,3,None,0,left_red
+16,6,109,None,1,None,0,right_congruent
+16,6,109,None,5,None,0,right_green
+16,6,109,None,2,None,0,right_incongruent
+16,6,120,None,8,None,0,left_green
+16,6,120,None,9,None,0,right_red
+16,6,-1,None,0,None,0,neutral_down
+16,6,120,None,6,None,0,left_congruent
+16,6,120,None,7,None,0,left_incongruent
+16,6,-1,None,4,None,0,neutral_up

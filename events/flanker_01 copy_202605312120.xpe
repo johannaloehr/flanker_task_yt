@@ -1,0 +1,23 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Sun May 31 2026 21:20:36
+#sha1: 4d5d44
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='PC192-168-2-103', release='25.4.0', version='Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+4454,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x11247c390> <class 'expyriment.stimuli._textline.TextLine'>"
+4457,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x11241e290> <class 'expyriment.stimuli._textline.TextLine'>"
+4458,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x112487dd0> <class 'expyriment.stimuli._textline.TextLine'>"
+4459,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x112488110> <class 'expyriment.stimuli._textline.TextLine'>"
+4463,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x112487f50> <class 'expyriment.stimuli._textline.TextLine'>"
+4464,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x112486e50> <class 'expyriment.stimuli._textline.TextLine'>"
+4465,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x112486dd0> <class 'expyriment.stimuli._textline.TextLine'>"
+4466,stdout,received,"DEBUG stim: <expyriment.stimuli._textline.TextLine object at 0x112488590> <class 'expyriment.stimuli._textline.TextLine'>"
+4466,stdout,received,'120'
+4466,stdout,received,'109'
+4466,stderr,received,'Traceback (most recent call last):'
+4467,stderr,received,'  File "/Users/johannalohr/Documents/GitHub/flanker_task_yt/flanker_01 copy.py", line 135, in <module>'
+4467,stderr,received,'    temp_trial.set_factor("correctresponse", correctresponse)'
+4467,stderr,received,'  File "/Users/johannalohr/Documents/GitHub/flanker_task_yt/.venv/lib/python3.11/site-packages/expyriment/design/_structure.py", line 1887, in set_factor'
+4468,stderr,received,'    raise TypeError(message)'
+4468,stderr,received,"TypeError: Factor values or factor conditions must to be a string or a numeric (i.e. float or integer).\n <class 'NoneType'> is not allowed."

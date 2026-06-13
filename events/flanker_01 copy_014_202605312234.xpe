@@ -1,0 +1,107 @@
+#Expyriment 1.0.1 (Python 3.11.9), .xpe-file, coding: UTF-8
+#date: Sun May 31 2026 22:34:28
+#sha1: c34a83
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Darwin', node='PC192-168-2-103', release='25.4.0', version='Darwin Kernel Version 25.4.0: Thu Mar 19 19:31:09 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T8132', machine='arm64')
+Time,Type,Event,Value,Detail,Detail2
+4380,Stimulus,presented,0
+4396,Stimulus,presented,6
+4413,Stimulus,presented,12
+4430,Stimulus,presented,18
+4447,Stimulus,presented,24
+4464,Stimulus,presented,30
+4480,Stimulus,presented,36
+4497,Stimulus,presented,42
+4514,Stimulus,presented,48
+4531,Stimulus,presented,54
+4531,stdout,received,'120'
+4531,stdout,received,'109'
+10413,design,log,
+#design: #exp: Flanker Task
+#design: #dvn: block,correctresp,response,trial,RT,accuracy,trialtype
+#design: block_cnt,block_id,trial_cnt,trial_id,correctresponse,trialtype
+#design: 0,0,0,5,109,left_red
+#design: 0,0,1,4,-1,neutral_up
+#design: 0,0,2,9,-1,neutral_down
+#design: 0,0,3,8,109,right_incongruent
+#design: 0,0,4,1,120,right_red
+#design: 0,0,5,6,109,right_green
+#design: 0,0,6,0,120,left_green
+#design: 0,0,7,2,109,right_congruent
+#design: 0,0,8,7,120,left_congruent
+#design: 0,0,9,3,120,left_incongruent
+#design: 1,1,0,4,120,left_congruent
+#design: 1,1,1,5,109,left_red
+#design: 1,1,2,9,-1,neutral_up
+#design: 1,1,3,0,109,right_green
+#design: 1,1,4,8,120,right_red
+#design: 1,1,5,6,120,left_incongruent
+#design: 1,1,6,7,109,right_congruent
+#design: 1,1,7,1,120,left_green
+#design: 1,1,8,3,109,right_incongruent
+#design: 1,1,9,2,-1,neutral_down
+#design: 2,2,0,2,-1,neutral_down
+#design: 2,2,1,7,109,right_incongruent
+#design: 2,2,2,6,-1,neutral_up
+#design: 2,2,3,3,120,right_red
+#design: 2,2,4,1,109,right_green
+#design: 2,2,5,8,120,left_incongruent
+#design: 2,2,6,9,120,left_congruent
+#design: 2,2,7,5,109,right_congruent
+#design: 2,2,8,4,109,left_red
+#design: 2,2,9,0,120,left_green
+#design: 3,3,0,5,120,left_incongruent
+#design: 3,3,1,2,109,left_red
+#design: 3,3,2,9,109,right_congruent
+#design: 3,3,3,3,109,right_incongruent
+#design: 3,3,4,8,-1,neutral_up
+#design: 3,3,5,7,120,left_green
+#design: 3,3,6,0,120,right_red
+#design: 3,3,7,6,109,right_green
+#design: 3,3,8,4,120,left_congruent
+#design: 3,3,9,1,-1,neutral_down
+#design: 4,4,0,6,120,left_congruent
+#design: 4,4,1,0,120,right_red
+#design: 4,4,2,3,-1,neutral_up
+#design: 4,4,3,2,-1,neutral_down
+#design: 4,4,4,4,120,left_green
+#design: 4,4,5,7,120,left_incongruent
+#design: 4,4,6,1,109,right_green
+#design: 4,4,7,9,109,right_incongruent
+#design: 4,4,8,8,109,left_red
+#design: 4,4,9,5,109,right_congruent
+#design: 5,5,0,3,120,left_incongruent
+#design: 5,5,1,8,-1,neutral_down
+#design: 5,5,2,7,109,right_green
+#design: 5,5,3,2,-1,neutral_up
+#design: 5,5,4,1,109,left_red
+#design: 5,5,5,0,109,right_incongruent
+#design: 5,5,6,6,120,left_green
+#design: 5,5,7,4,120,left_congruent
+#design: 5,5,8,9,109,right_congruent
+#design: 5,5,9,5,120,right_red
+10414,design,logged,
+10414,Experiment,started
+10430,Stimulus,presented,62
+10868,Keyboard,received,32,wait
+10879,Stimulus,presented,61
+11896,Stimulus,presented,48
+12896,Keyboard,received,None,wait
+12913,Stimulus,presented,61
+13930,Stimulus,presented,24
+14930,Keyboard,received,None,wait
+14947,Stimulus,presented,61
+15963,Stimulus,presented,30
+16963,Keyboard,received,None,wait
+16979,Stimulus,presented,61
+17996,Stimulus,presented,18
+18996,Keyboard,received,None,wait
+19013,Stimulus,presented,61
+20030,Stimulus,presented,54
+20332,Experiment,paused
+20346,Stimulus,presented,63
+21453,Keyboard,received,y,wait_char
+21453,Experiment,ended
+21454,Data,saved
+21464,Stimulus,presented,63
